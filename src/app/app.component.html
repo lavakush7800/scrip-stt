@@ -1,7 +1,13 @@
-<app-header></app-header>
+<!-- <app-header></app-header>
 <div style="text-align: center;">
   <h1>LS Tech Software</h1>
   <app-demo></app-demo>
 </div>
-<app-footer></app-footer>  
-<router-outlet></router-outlet>
+<app-footer></app-footer>   -->
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+  <mat-drawer-content>
+    <h1>Welcome to LS Tech</h1>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
