@@ -8,7 +8,7 @@ import { DemoComponent } from './demo/demo.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { ContactComponent } from './contact/contact.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +16,6 @@ import { ContactComponent } from './contact/contact.component';
     DemoComponent,
     HeaderComponent,
     FooterComponent,
-    ContactComponent
   ],
   imports: [
     BrowserModule,
